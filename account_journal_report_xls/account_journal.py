@@ -51,6 +51,7 @@ class AccountJournal(models.Model):
                 'period',        # account.period,code or name
             ]
         res += [
+            'partner_ref',       # res.partner,ref
             'partner_name',      # res.partner,name
             'aml_name',          # account.move.line,name
             'tax_code',          # account.tax.code,code
