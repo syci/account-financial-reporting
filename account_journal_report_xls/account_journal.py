@@ -63,7 +63,7 @@ class AccountJournal(models.Model):
             # 'reconcile',         # account.move.line,reconcile_id.name
             # 'reconcile_partial',
             # account.move.line,reconcile_partial_id.name
-            # 'partner_ref',       # res.partner,ref
+            'partner_ref',       # res.partner,ref
             # 'move_ref',          # account.move,ref
             # 'move_id',           # account.move,id
             # 'acc_name',          # account.account,name
